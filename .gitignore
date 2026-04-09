@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+__pycache__/
+
+# Build
+dist/
+build/
+out/
+target/
+*.o
+*.so
+*.dylib
+
+# Logs
+*.log
+logs/
+
+# Coverage / Test
+coverage/
+.nyc_output/
+htmlcov/
+
+# Misc
+*.tmp
+*.bak
+*.pid
+Thumbs.db
