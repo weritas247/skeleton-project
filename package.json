@@ -1,0 +1,32 @@
+{
+  "name": "skeleton-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weritas247/skeleton-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/weritas247/skeleton-project/issues"
+  },
+  "homepage": "https://github.com/weritas247/skeleton-project#readme",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "echo 'lint check'",
+    "*.{js,jsx,ts,tsx,json,md}": "echo 'format check'"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0"
+  }
+}
